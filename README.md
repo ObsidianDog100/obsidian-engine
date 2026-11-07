@@ -1,4 +1,4 @@
-# Obsidian Game Engine
+# Obsidian Engine
 
 Obsidian Game Engine is a customized fork of the [Godot Engine](https://godotengine.org),
 an open-source engine for creating 2D and 3D games. This fork keeps Godot's
