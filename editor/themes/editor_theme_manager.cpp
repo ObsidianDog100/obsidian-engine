@@ -297,7 +297,7 @@ EditorThemeManager::ThemeConfiguration EditorThemeManager::_create_theme_config(
 		Color system_accent_color = display_server->get_accent_color();
 
 		if (follow_system_theme) {
-			String dark_theme = "Default";
+			String dark_theme = "Obsidian";
 			String light_theme = "Light";
 
 			config.preset = light_theme; // Assume light theme if we can't detect system theme attributes.
@@ -349,6 +349,9 @@ EditorThemeManager::ThemeConfiguration EditorThemeManager::_create_theme_config(
 				preset_base_color = Color(0.9, 0.9, 0.9);
 				preset_contrast = light_contrast;
 				preset_icon_saturation = 1;
+			} else if (config.preset == "Obsidian") {
+				preset_accent_color = Color(0.68, 0.46, 0.94);
+				preset_base_color = Color(0.075, 0.065, 0.09);
 			} else if (config.preset == "Solarized (Dark)") {
 				preset_accent_color = Color(0.15, 0.55, 0.82);
 				preset_base_color = Color(0.03, 0.21, 0.26);

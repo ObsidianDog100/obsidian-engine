@@ -1,36 +1,38 @@
-# Godot Engine
+# Obsidian Game Engine
+
+Obsidian Game Engine is a customized fork of the [Godot Engine](https://godotengine.org),
+an open-source engine for creating 2D and 3D games. This fork keeps Godot's
+upstream attribution and licensing; upstream documentation and contribution
+links below refer to the original project.
 
 <p align="center">
   <a href="https://godotengine.org">
-    <img src="misc/logo/logo_outlined.svg" width="400" alt="Godot Engine logo">
+    <img src="editor/icons/Logo.svg" width="180" alt="Obsidian Game Engine logo">
   </a>
 </p>
 
 ## 2D and 3D cross-platform game engine
 
-**[Godot Engine](https://godotengine.org) is a feature-packed, cross-platform
-game engine to create 2D and 3D games from a unified interface.** It provides a
-comprehensive set of [common tools](https://godotengine.org/features), so that
-users can focus on making games without having to reinvent the wheel. Games can
-be exported with one click to a number of platforms, including the major desktop
-platforms (Linux, macOS, Windows), mobile platforms (Android, iOS), as well as
-Web-based platforms and [consoles](https://godotengine.org/consoles).
+**Obsidian Game Engine** is a feature-packed, cross-platform fork of Godot for
+creating 2D and 3D games from a unified interface. It builds on Godot's
+comprehensive set of [common tools](https://godotengine.org/features), so users
+can focus on making games without having to reinvent the wheel. Games can be
+exported to major desktop platforms (Linux, macOS, Windows), mobile platforms
+(Android, iOS), the Web, and [consoles](https://godotengine.org/consoles).
 
 ## Free, open source and community-driven
 
-Godot is completely free and open source under the very permissive [MIT license](https://godotengine.org/license).
-No strings attached, no royalties, nothing. The users' games are theirs, down
-to the last line of engine code. Godot's development is fully independent and
-community-driven, empowering users to help shape their engine to match their
-expectations. It is supported by the [Godot Foundation](https://godot.foundation/)
-not-for-profit.
+Obsidian Game Engine is free and open source under the [MIT license](LICENSE.txt),
+inheriting Godot's permissive licensing. Games made with the engine belong to
+their creators. The fork builds on Godot's independent, community-driven
+development, supported by the [Godot Foundation](https://godot.foundation/).
 
 Before being open sourced in [February 2014](https://github.com/godotengine/godot/commit/0b806ee0fc9097fa7bda7ac0109191c9c5e0a1ac),
 Godot had been developed by [Juan Linietsky](https://github.com/reduz) and
 [Ariel Manzur](https://github.com/punto-) for several years as an in-house
 engine, used to publish several work-for-hire titles.
 
-![Screenshot of a 3D scene in the Godot Engine editor](https://raw.githubusercontent.com/godotengine/godot-design/master/screenshots/editor_tps_demo_1920x1080.jpg)
+![Obsidian Game Engine editor, based on Godot](https://raw.githubusercontent.com/godotengine/godot-design/master/screenshots/editor_tps_demo_1920x1080.jpg)
 
 ## Getting the engine
 
